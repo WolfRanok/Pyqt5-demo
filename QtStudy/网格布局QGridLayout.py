@@ -14,7 +14,10 @@ class MyWindow(QWidget):
         layout = QVBoxLayout()
 
         edit = QLineEdit()  # 文本输入框
-        edit.setPlaceholderText()
+        edit.setPlaceholderText('请输入内容')
+        layout.addWidget(edit)
+
+        grid = 
 
 
 if __name__ == '__main__':
